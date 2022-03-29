@@ -1,0 +1,356 @@
+
+
+/*............Menu and Slide show............*/
+
+.m-navbr{
+	background-color: transparent;
+	border:none;
+	height: 60px;
+	/*padding: 5px 0px;*/
+}
+
+.m-dark{
+	background-color: #121212;
+}
+
+.navbar-dark{
+	transition: all 2s ease;
+	background-color: #121212;
+	height: 60px;
+}
+
+.navbar-light{
+	transition: all 2s ease;
+	background-color: transparent;
+	height: 60px;
+}
+
+#menu ul li a{
+	color: #fff;
+}
+
+#menu ul{
+	margin-top: 10px;
+}
+
+#menu ul li{
+	margin-left: 20px;
+}
+
+#menu ul li a:hover{
+	transition: all 2s ease;
+	color: dodgerblue;
+}
+
+.carousel-caption h1{
+	font-size: 5vw;
+}
+
+/*@media screen and (max-width: 768px){
+	.m-navbr{
+		background-color: #131313;
+	}
+
+	#menu{
+		background-color: #131313;
+	}
+}
+*/
+
+/*............Services...........*/
+.m-serve{
+	padding: 70px 10px;
+}
+
+.box .fa{
+	font-size: 40px;
+	padding:20px 5px;
+	color: dodgerblue;
+}
+
+.media-heading h2{
+	color: #555;
+}
+
+.m-serve .row{
+	margin-top: 50px;
+}
+
+.content{
+	margin-top: -50px;
+	text-align: center;
+}
+
+.content h5{
+	color: dodgerblue;
+}
+
+.media{
+	padding: 50px;
+	border:1px solid #888;
+	box-sizing: border-box;
+}
+
+/*............About...........*/
+
+.about{
+	width: 100%;
+	height: 400px;
+	background-image: url(../../images/abouts/about.jpg);
+	background-size: 100% 100%;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+.a-content{
+	text-align: center;
+	margin-top: 150px;
+}
+
+.a-content h1{
+	color: white;
+	word-spacing: 10px;
+	margin-bottom: 70px;
+}
+
+.a-content .a-btn{
+	padding: 10px 25px;
+	text-decoration: none;
+	border:1px solid #fff;
+	border-radius: 50px;
+	color: #fff;
+}
+
+.a-btn:hover{
+	transition: all 1s ease;
+	background-color: #fff;
+	color: dodgerblue;
+}
+
+
+/*............Brands...........*/
+
+.brand{
+	padding: 75px 10px;
+
+}
+
+.brand .b-header{
+	text-align: center;
+	padding: 15px;
+}
+
+.brand .b-img img{
+	width: 100%;
+}
+
+.badge{
+	background-color: dodgerblue;
+}
+
+.b-text{
+	text-align: center;
+}
+
+.b-text h3{
+	color: #555;
+}
+
+.b-text .btn{
+	padding: 2px 25px;
+}
+
+.b-img img:hover{
+	cursor: pointer;
+	transition: all 2s ease;
+	transform: scale(1.3) rotate(15deg);
+}
+
+.b-img{
+	overflow: hidden;
+}
+
+.brand .row{
+	margin-top: 40px;
+}
+
+/*............Brands...........*/
+
+.culture{
+	border-top:3px solid dodgerblue;
+	overflow: auto;
+}
+
+.c-img img{
+	width: 80%;
+	float: right;
+}
+
+.c-text{
+	padding: 100px 60px;
+	margin-left: 50px;
+}
+
+.c-text h5{
+	color: dodgerblue;
+}
+
+.p-text{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+/*............Subscribe...........*/
+
+/*.subscribe{
+	background-image: url(../../images/abouts/subscribe.jpg);
+	background-size:100% 100%;
+	background-attachment: fixed;
+	height: 400px;
+}
+
+.s-content{
+	text-align: center;
+	margin-top: 120px;
+}*/
+
+.s-content h4 ,  .s-content h1{
+	color: #fff;
+}
+
+.s-form{
+	width: 30%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.s-form input{
+	background-color: transparent;
+	border-radius: 50px;
+	border-right: none;
+}
+
+.input-group-addon{
+	background-color: transparent;
+	border-radius: 50px;
+	border-left: none;
+}
+
+.input-group-addon a{
+	color: #fff;
+}
+
+.up{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	padding: 10px;
+	background-color: dodgerblue;
+	color: #fff;
+	border-radius: 20px;
+}
+
+.contact h4 , .contact h1{
+	text-align: center;
+}
+
+.contact h1{
+	margin-bottom: 60px;
+}
+
+.contact .container{
+	padding: 30px 40px;
+	margin: 75px auto;
+	background-color: rgb(244 , 248 , 249);
+}
+
+
+.c-input{
+	border:1px solid #fff;
+	padding: 20px;
+	border-radius: 40px;
+	margin-bottom: 15px; 
+}
+
+.t-input{
+	border:1px solid #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.center .btn-blue{
+	color: #fff;
+	background-color: rgb(19 , 177 , 206);
+	padding: 10px 40px;
+	border-radius: 40px;
+	margin-top: 20px;
+}
+
+.btn-group a{
+	border:none !important;
+	background-color: rgb(244 , 248 , 249);
+}
+
+.btn-group a:hover{
+	background-color: rgb(244 , 248 , 249);
+}
+
+.reference{
+	background-color: rgb(244 , 248 , 249);
+	padding: 80px 10px;
+	border-top: 2px solid #777;
+}
+
+/*Footer*/
+footer{
+	min-height: 400px;
+	background-color: #222;
+	padding: 75px 10px;
+}
+
+footer h2{
+	color: #fff;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer ul li{
+	margin-top: 15px;
+}
+
+footer ul li a{
+	color: #fff;
+	font-size: 16px;
+}
+
+footer ul li a:hover{
+	text-decoration: none;
+	color: orange;
+}
+
+.bottom-bar{
+	background-color: #000;
+	padding: 10px 0px;
+}
+
+.bottom-bar .container{
+	margin-top: 10px;
+}
+
+.bottom-bar p{
+	color: #fff;
+}
+
+.bottom-bar .btn-group a{
+	background-color: #000;
+	color: #fff;
+	margin-left: 40px;
+	float: right;
+	overflow: auto;
+}
